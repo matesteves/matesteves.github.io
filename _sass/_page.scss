@@ -2,6 +2,10 @@
    SINGLE PAGE/POST
    ========================================================================== */
 
+body {
+  transform: translateX(-50px);
+}
+
 #main {
   @include container;
   @include clearfix;
